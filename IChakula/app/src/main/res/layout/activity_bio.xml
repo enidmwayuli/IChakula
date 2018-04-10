@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.enid.i_chakula.Bio">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout5">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/background"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_bio" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBarLayout5"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/slogan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:ems="10"
+
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="23dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        android:inputType="textMultiLine"
+        android:text="Lishe Bora Kwa Jamii Yote" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/slogan1"
+        android:layout_marginTop="13dp"
+
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="23dp"
+        android:textSize="18dp"
+
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="I-Chakula is a food relief application that is designed to provide a platform that helps to curb hunger, reduce food wastage and promote responsible consumption of food. At I-Chakula  we aim at solving the problem of food insecurity which has led to malnutrition and deaths in some parts of our country Kenya. " />
+
+    <Button
+        android:id="@+id/Logout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+
+        android:text="Logout" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/Logout1"
+        android:layout_alignLeft="@+id/slogan1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/slogan1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="23dp"
+        android:text="Thank You For Using I-Chakula"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</RelativeLayout>

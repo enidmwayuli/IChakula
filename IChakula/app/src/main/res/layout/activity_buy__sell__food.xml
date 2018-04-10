@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.enid.i_chakula.Buy_Sell_Food">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout7">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/background"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:paddingLeft="23dp"
+        android:text="Do You Have Extra Surplus Farm Produce. Sell Your Food An NGO Near You Today. Email surplus@ichakula.com To Sell On Our Platform"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="55dp"
+        android:paddingLeft="23dp"
+        android:text="Are You an NGO Looking To Purchase To Purchase Farm Produce? Click On The Food Images Below "
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:id="@+id/textView5" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="61dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/food2" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignStart="@+id/imageButton1"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/food2" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_toEndOf="@+id/imageButton1"
+        android:layout_toRightOf="@+id/imageButton1"
+        app:srcCompat="@drawable/food5" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_alignTop="@+id/imageButton2"
+        app:srcCompat="@drawable/food1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Next"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

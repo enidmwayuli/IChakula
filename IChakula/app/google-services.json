@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "980224683847",
+    "firebase_url": "https://ichakula-d3084.firebaseio.com",
+    "project_id": "ichakula-d3084",
+    "storage_bucket": "ichakula-d3084.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980224683847:android:abe189388183a211",
+        "android_client_info": {
+          "package_name": "com.example.enid.i_chakula"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980224683847-5akv19rvh3goutg7hkekgep9hqd1gkr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.enid.i_chakula",
+            "certificate_hash": "325248b6402590a4c08412337cd8b9f9d0e7c9ad"
+          }
+        },
+        {
+          "client_id": "980224683847-s7sas4ch9tpfnsl3tdtq009kt2harbre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0WvoQaVkEakS-Uy6nuIBTKc7hS-GJR4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980224683847-s7sas4ch9tpfnsl3tdtq009kt2harbre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
